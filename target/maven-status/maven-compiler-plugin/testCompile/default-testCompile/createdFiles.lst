@@ -1,0 +1,3 @@
+test/impl/StockTradeServiceImplTest.class
+test/controller/StockTradeRestControllerTest.class
+test/util/TestUtil.class

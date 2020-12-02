@@ -1,0 +1,19 @@
+-------------------------------------------------------------------------------
+Test set: com.hackerrank.stocktrades.service.impl.StockTradeServiceImplTest
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 0, Errors: 3, Skipped: 0, Time elapsed: 0.001 s <<< FAILURE! - in com.hackerrank.stocktrades.service.impl.StockTradeServiceImplTest
+createTrade  Time elapsed: 0 s  <<< ERROR!
+java.lang.NoClassDefFoundError: com/hackerrank/stocktrades/util/TestUtil
+	at com.hackerrank.stocktrades.service.impl.StockTradeServiceImplTest.createTrade(StockTradeServiceImplTest.java:50)
+Caused by: java.lang.ClassNotFoundException: com.hackerrank.stocktrades.util.TestUtil
+	at com.hackerrank.stocktrades.service.impl.StockTradeServiceImplTest.createTrade(StockTradeServiceImplTest.java:50)
+
+getTrades  Time elapsed: 0 s  <<< ERROR!
+java.lang.NoClassDefFoundError: com/hackerrank/stocktrades/util/TestUtil
+	at com.hackerrank.stocktrades.service.impl.StockTradeServiceImplTest.createResultList(StockTradeServiceImplTest.java:68)
+	at com.hackerrank.stocktrades.service.impl.StockTradeServiceImplTest.getTrades(StockTradeServiceImplTest.java:60)
+
+getTradeById_found  Time elapsed: 0 s  <<< ERROR!
+java.lang.NoClassDefFoundError: com/hackerrank/stocktrades/util/TestUtil
+	at com.hackerrank.stocktrades.service.impl.StockTradeServiceImplTest.getTradeById_found(StockTradeServiceImplTest.java:77)
+

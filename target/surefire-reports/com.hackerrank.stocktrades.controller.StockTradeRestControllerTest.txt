@@ -1,0 +1,14 @@
+-------------------------------------------------------------------------------
+Test set: com.hackerrank.stocktrades.controller.StockTradeRestControllerTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 0.003 s <<< FAILURE! - in com.hackerrank.stocktrades.controller.StockTradeRestControllerTest
+testTradeCreationWithInvalidType  Time elapsed: 0 s  <<< ERROR!
+java.lang.NoClassDefFoundError: com/hackerrank/stocktrades/util/TestUtil
+	at com.hackerrank.stocktrades.controller.StockTradeRestControllerTest.testTradeCreationWithInvalidType(StockTradeRestControllerTest.java:31)
+Caused by: java.lang.ClassNotFoundException: com.hackerrank.stocktrades.util.TestUtil
+	at com.hackerrank.stocktrades.controller.StockTradeRestControllerTest.testTradeCreationWithInvalidType(StockTradeRestControllerTest.java:31)
+
+testTradeCreationWithInvalidStock  Time elapsed: 0.002 s  <<< ERROR!
+java.lang.NoClassDefFoundError: com/hackerrank/stocktrades/util/TestUtil
+	at com.hackerrank.stocktrades.controller.StockTradeRestControllerTest.testTradeCreationWithInvalidStock(StockTradeRestControllerTest.java:45)
+
