@@ -16,7 +16,6 @@ import java.util.List;
  */
 @RestController
 public class StockTradeRestController {
-
     @Autowired
     private StockTradeService stockTradeService;
 
